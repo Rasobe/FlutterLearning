@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "tok_tik_app",
+            "cwd": "tok_tik_app",
+            "request": "launch",
+            "type": "dart",
+            "program": "toktik_app\\lib\\main.dart",
+        },
+        {
+            "name": "tok_tik_app (profile mode)",
+            "cwd": "tok_tik_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "tok_tik_app (release mode)",
+            "cwd": "tok_tik_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "yes_no_app",
+            "cwd": "yes_no_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "yes_no_app (profile mode)",
+            "cwd": "yes_no_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "yes_no_app (release mode)",
+            "cwd": "yes_no_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
