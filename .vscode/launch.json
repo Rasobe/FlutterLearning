@@ -9,7 +9,6 @@
             "cwd": "tok_tik_app",
             "request": "launch",
             "type": "dart",
-            "program": "toktik_app\\lib\\main.dart",
         },
         {
             "name": "tok_tik_app (profile mode)",
@@ -44,6 +43,12 @@
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"
+        },
+        {
+            "name": "Flutter",
+            "type": "dart",
+            "request": "launch",
+            "program": "widgets_app/lib/main.dart"
         }
     ]
 }
