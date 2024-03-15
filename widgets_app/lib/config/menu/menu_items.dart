@@ -39,4 +39,9 @@ const appMenuItems = <MenuItems>[
       subTitle: 'Contenedor animado con botón',
       link: '/animated',
       icon: Icons.check_box_outline_blank_outlined),
+  MenuItems(
+      title: 'Ui controls',
+      subTitle: 'Checkboxes, radioButtons y expanded',
+      link: '/controls',
+      icon: Icons.control_camera_sharp),
 ];
