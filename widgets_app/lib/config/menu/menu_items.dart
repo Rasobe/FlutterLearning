@@ -44,4 +44,9 @@ const appMenuItems = <MenuItems>[
       subTitle: 'Checkboxes, radioButtons y expanded',
       link: '/controls',
       icon: Icons.control_camera_sharp),
+  MenuItems(
+      title: 'App Tutorial',
+      subTitle: 'App turorial with slides',
+      link: '/tutorial',
+      icon: Icons.help_outline_outlined),
 ];
