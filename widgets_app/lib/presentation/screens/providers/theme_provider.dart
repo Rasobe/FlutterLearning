@@ -18,4 +18,12 @@ final themeNotifierProvider = StateNotifierProvider<ThemeNotifier, AppTheme>(
 // Controller or Notifier
 class ThemeNotifier extends StateNotifier<AppTheme> {
   ThemeNotifier() : super(AppTheme());
+
+  void toggleDarMode() {
+    state = state.copyWith(isDarkMode: !state.isDarkMode);
+  }
+
+  void changeColorIndex(int colorIndex) {
+    state = state.copyWith(selectedColor: colorIndex);
+  }
 }
