@@ -49,4 +49,19 @@ const appMenuItems = <MenuItems>[
       subTitle: 'App turorial with slides',
       link: '/tutorial',
       icon: Icons.help_outline_outlined),
+  MenuItems(
+      title: 'Infinite Scroll y Pull',
+      subTitle: 'Listas infinitas y pull to refresh',
+      link: '/infinite',
+      icon: Icons.list_alt_rounded),
+  MenuItems(
+      title: 'Counter screen',
+      subTitle: 'Counter Screen',
+      link: '/counter',
+      icon: Icons.add),
+  MenuItems(
+      title: 'Theme changer',
+      subTitle: 'Theme changer',
+      link: '/theme-changer',
+      icon: Icons.color_lens_outlined),
 ];

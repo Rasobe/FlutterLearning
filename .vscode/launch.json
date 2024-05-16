@@ -48,7 +48,7 @@
             "name": "Flutter",
             "type": "dart",
             "request": "launch",
-            "program": "widgets_app/lib/main.dart"
+            "program": "cinemapedia/lib/main.dart"
         }
     ]
 }
